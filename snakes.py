@@ -1,5 +1,7 @@
 
 import test_snakes.dubbyOnline.main
+import test_snakes.dubbyOnline2.main
+import test_snakes.dubbyOnline3.main
 
 
 COLORS = {
@@ -27,5 +29,17 @@ SNAKES = []
 SNAKES.append({
         "move": test_snakes.dubbyOnline.main.move,
         "name": "dubbyOnline",
-        "color": COLORS["grey"]
+        "color": COLORS["red"]
+    })
+
+SNAKES.append({
+        "move": test_snakes.dubbyOnline2.main.move,
+        "name": "dubbyOnline2",
+        "color": COLORS["cyan"]
+    })
+
+SNAKES.append({
+        "move": test_snakes.dubbyOnline3.main.move,
+        "name": "dubbyOnline3",
+        "color": COLORS["purple"]
     })
